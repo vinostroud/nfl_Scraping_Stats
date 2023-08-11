@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nfl-scraping-stats"
+version = "0.1.0"
+description = ""
+authors = ["krsone21 <59742756+krsone21@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "nfl_scraping_stats"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
